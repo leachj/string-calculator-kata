@@ -1,6 +1,6 @@
 class Calc {
-  add(a: number, b: number): number {
-    return a + b;
+  add(number: string): number {
+    return 0;
   }
 }
 
