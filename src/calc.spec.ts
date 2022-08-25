@@ -1,7 +1,7 @@
-import calc from './calc';
+import { add } from './calc';
 
 describe('Calc', () => {
   test('a test', () => {
-    expect(true).toBe(true);
+    expect(add("")).toEqual(0)
   });
 });

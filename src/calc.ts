@@ -1,7 +1,4 @@
-class Calc {
-  add(number: string): number {
-    return 0;
-  }
-}
 
-export default new Calc();
+export function add(number: string): number {
+  return 0;
+}
